@@ -53,7 +53,7 @@ public abstract class SendWebRequest {
                 return null;
             }
         }
-        if (response.getStatus() >= 300) {
+        if (response.getStatus() >= 500) {
             throw new IllegalStateException(
                     format("Error (status %s) when invoking endpoint %s. Response: %s.",
                            response.getStatus(), request.getPath(), body));
