@@ -53,7 +53,7 @@ This will start:
 
 - Fluxzero Test Server on port 8888
 - Fluxzero Proxy on port 8080
-- OpenSearch Dashboards on localhost:5601
+- OpenSearch Dashboards on http://localhost:5601
 
 And once everything is running:
 
